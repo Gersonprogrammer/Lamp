@@ -8,19 +8,19 @@ function isLampBroken () {
 
 function lampOn () {
     if ( !isLampBroken () ) {
-        lamp.src = '.img/ligada.jpg';
+        lamp.src = './img/ligada.jpg';
     }
 }
 
 function lampOff () {
     if ( !isLampBroken () ) {
-        lamp.src = '.img/desligada.jpg';
+        lamp.src = './img/desligada.jpg';
         turnOnOff.textContent = 'Ligar';
     }
 }
 
 function lampBroken () {
-    lamp.src = '.img/quebrada.jpg';
+    lamp.src = './img/quebrada.jpg';
 }
 
 function lampOnOff () {
